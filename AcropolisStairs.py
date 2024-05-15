@@ -445,31 +445,6 @@ def open_gorgo_window():
         "HARD": (0, 51, 102),
         "EXPERT": (54, 69, 79)
     }
-    QUESTION_NAME = ['QUESTION 1',
-                     'QUESTION 2',
-                     'QUESTION 3',
-                     'QUESTION 4',
-                     'QUESTION 5',
-                     'QUESTION 6',
-                     'QUESTION 7',
-                     'QUESTION 8',
-                     'QUESTION 9',
-                     'QUESTION 10',
-                     'QUESTION 11',
-                     'QUESTION 12',
-                     'QUESTION 13',
-                     'QUESTION 14',
-                     'QUESTION 15',
-                     'QUESTION 16',
-                     'QUESTION 17',
-                     'QUESTION 18',
-                     'QUESTION 19',
-                     'QUESTION 20',
-                     'QUESTION 21',
-                     'QUESTION 22',
-                     'QUESTION 23',
-                     'QUESTION 24',
-                     'QUESTION 25']
     running_gorgo = True
     i = 0
     while running_gorgo and i < 25:
@@ -2337,6 +2312,26 @@ def main_window():
 
 if __name__ == "__main__":
     main_window()
+    print(sign_up_player_data.__doc__)
+    print(check_username_exists.__doc__)
     print(pop_username.__doc__)
+    print(pop_points.__doc__)
+    print(pop_question_number.__doc__)
+    print(pop_questions_gorgo.__doc__)
+    print(pop_questions_sparta.__doc__)
+    print(background_color.__doc__)
+    print(open_save_window.__doc__)
+    print(open_gorgo_window.__doc__)
+    print(open_gorgo_window_twin_docstring.__doc__)
+    print(open_sparta_window.__doc__)
+    print(open_sparta_window_twin_docstring.__doc__)
+    print(open_gorgo_mathematics.__doc__)
+    print(open_gorgo_physics.__doc__)
+    print(open_gorgo_chemistry.__doc__)
+    print(open_sparta_mathematics.__doc__)
+    print(open_sparta_physics.__doc__)
+    print(open_sparta_chemistry.__doc__)
+    print(open_new_game_window.__doc__)
+    print(open_new_window.__doc__)
     print(RoundRectTextbox.__doc__)
-    print()
+    print(main_window.__doc__)
