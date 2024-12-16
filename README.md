@@ -1,1 +1,0 @@
-# Acropolis_Stairs
